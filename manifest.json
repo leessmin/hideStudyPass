@@ -1,0 +1,17 @@
+{
+    "name": "hideStudyPass",
+    "description": "隐藏学习通答案",
+    "version": "0.1",
+    "manifest_version": 3,
+    "permissions": [
+        "scripting",
+        "tabs",
+        "notifications"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
